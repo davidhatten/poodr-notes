@@ -1,0 +1,1 @@
+-  I thought it was important that "candidates" was used in the context of deciding what would be an object, and that 'Bike' didn't make the cut as it didn't yet exhibit any behavior in what was known.

@@ -1,1 +1,8 @@
 -  I thought it was important that "candidates" was used in the context of deciding what would be an object, and that 'Bike' didn't make the cut as it didn't yet exhibit any behavior in what was known.
+- "The classes you create will affect how you think about your application forever. They define a virtual world, one that constrains the imagination of everyone downstream" : I felt it extremelly important to think about this is the context of YAGNI / and only designing & developing for as much as you know right now to be true (no assumptions).
+- "If Gear responds to it, someone will send it, and that sender may be in for a rude surprise when Gear changes" - reinforces how I feel about exposing the state of my objects. Sandy didn't touch on it in this chapter, but left some of the properties of Gear exposed. I would err on the side of not doing that until necessary. The minute you make something accessable, someone is bound to use it. They will call this message if they can so limit what can be called at first (think even as simply as getters/setters!)
+- "You will never know less than you know right now." ... back to cultures of learning. In a culture of learning we accept this and seek to know more. Otherwise we're left in anticipatation of this and surprise or frustration at the truth later.
+- Depend on behavior not data - so hide data (this wasn't really shown here though)
+- "Extracting that calculation into this new diameter method will make it easier to examine the class’s responsibilities." - this made me think of my short pairing session with Matt J. recently, and focusing on the simple refactorings first.
+- "Small methods lower the barriers to improving your design"
+
